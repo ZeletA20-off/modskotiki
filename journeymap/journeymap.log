@@ -1,0 +1,1603 @@
+[19:04:49] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[19:04:49] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[19:04:49] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
+[19:04:49] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-6.0.1, built with forge 0.92.3+1.20.1
+forge: 47.4.20
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ru_ru, locale=ru_ru
+SP: : flatik : world : Новый мир : 
+MP: : offline : scaticat : scaticat_9c5b8da6~bdbb~41c4~b255~68a76ca923de : ~Minecraft : ~Minecraft_2fca85d7~b66b~4a71~a341~11759e66679b : ~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de : ~Minecraft_a6380d80~6f40~49f9~8338~01185ce018f8 : ~Minecraft_ee82f9e8~9ba7~40af~b850~1aad2715859c : 
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.1, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, hudRenderLayer=jm.minimap.hud_render_layer_last, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.1, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, hudRenderLayer=jm.minimap.hud_render_layer_last, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.1, zoomLevel=1024, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, pauseGame=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.1, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showLabelBackground=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, autoHideLabelVertical=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, autoHideLabelVerticalAngle=10, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.1, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.1, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=6.0.1, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=false, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=false, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, minimapPresetOverlay=true, caveShader=jm.common.map_filter.default, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=false, netherSurfaceLighting=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2000, minimapMapTypeOverlay=true, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, drawStepUpdateRate=500, cachePlayerData=1000, splashViewed=6.0.1, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3000, ignoreHeightmaps=false, lodsEnabled=true, themeName=EndCity, mapCaveLighting=true, renderDelay=500, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[19:04:49] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 383,01ms
+[19:05:32] [Render thread/INFO] [JourneymapClientForge] Journeymap PostInit
+[19:05:34] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[19:05:34] [Render thread/INFO] [JourneymapClient] OptiFine detected.
+[19:05:34] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1843,34ms
+[19:05:35] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: Current: 6.0.1 New: 6.0.5 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/8845351
+[19:14:20] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[19:14:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 42ms for: Default Palette
+[19:14:42] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[19:14:42] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[19:14:46] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[19:14:46] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[19:14:46] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[19:14:46] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[19:14:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[19:14:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[19:14:46] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 5440MB total, 2266MB free 
+[19:14:46] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[19:14:46] [Render thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[19:14:46] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[19:53:28] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[20:10:17] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[20:10:17] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[20:10:18] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[20:10:18] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[20:10:18] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[20:10:18] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[20:10:18] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[20:10:18] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[20:10:18] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[20:10:18] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[20:10:18] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[20:19:11] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[20:19:17] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: Default Palette
+[20:19:26] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:19:26] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:19:27] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:19:29] [Render thread/INFO] [WaypointGroupStore] Loaded 1 waypoint groups from disk.
+[20:19:29] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[20:19:29] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[20:19:29] [Render thread/INFO] [WaypointHandler] Migrating 0 local waypoint(s) and 1 group(s) to server.
+[20:19:29] [Render thread/INFO] [ClientWaypointDAO] Local waypoint DAO archived to backup folder.
+[20:19:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[20:19:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[20:19:29] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 5440MB total, 1194MB free 
+[20:19:29] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:19:29] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:47:01] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[20:47:01] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[20:47:01] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[20:47:01] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[20:47:01] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[20:47:01] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[20:47:01] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[20:47:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[20:47:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[20:47:01] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[20:47:01] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[21:01:50] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:02:05] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:02:11] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: Default Palette
+[21:02:24] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:02:24] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:02:26] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:02:26] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:02:26] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:02:26] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 13ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:02:26] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:02:26] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 5440MB total, 577MB free 
+[21:02:26] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:02:26] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:02:31] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:02:37] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:02:37] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:02:38] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:02:38] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:02:38] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:02:38] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:02:38] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:02:38] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:02:38] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:02:38] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[21:02:38] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[21:04:42] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:06:49] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:06:58] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 3ms for: Default Palette
+[21:07:02] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:07:02] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:07:02] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:07:02] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:07:02] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:07:02] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:07:02] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:07:02] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:07:02] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:07:02] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[21:07:02] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[21:09:11] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:09:11] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[21:09:15] [Server thread/INFO] [PluginHelper] Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[21:09:18] [Server thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[21:09:20] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:09:24] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:09:25] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:09:30] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:09:30] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=true)
+[21:09:30] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:09:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:09:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\colorpalette.json
+[21:09:30] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\overworld. Memory: 9376MB total, 3766MB free 
+[21:09:30] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\overworld\chunk_cache
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:09:30] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:09:35] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:09:41] [Server thread/INFO] [JourneyMapTeleport] ZeletA teleported to -1628.0 65.0 1350.0 minecraft:overworld
+[21:09:49] [Server thread/INFO] [JourneyMapTeleport] ZeletA teleported to -1764.0 1.0 1462.0 minecraft:overworld
+[21:09:51] [Server thread/INFO] [JourneyMapTeleport] ZeletA teleported to -1556.0 65.0 1158.0 minecraft:overworld
+[21:10:28] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\minecraft:overworld
+[21:10:28] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\minecraft:overworld
+[21:10:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:10:29] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:10:31] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:10:32] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:10:32] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=true)
+[21:10:32] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:10:32] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:10:32] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\colorpalette.json
+[21:10:32] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\the_end. Memory: 9376MB total, 3297MB free 
+[21:10:32] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\the_end\chunk_cache
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:10:32] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:10:47] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\minecraft:the_end
+[21:10:47] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\minecraft:the_end
+[21:10:48] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:10:48] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:10:52] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:10:52] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=true)
+[21:10:52] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:10:52] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:10:52] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\colorpalette.json
+[21:10:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\overworld. Memory: 9376MB total, 2552MB free 
+[21:10:52] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\sp\world\overworld\chunk_cache
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:10:52] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:11:07] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:11:07] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:11:08] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:11:08] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:11:08] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:11:08] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:11:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:11:08] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\offline\minecraft:overworld
+[21:11:08] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\offline\minecraft:overworld
+[21:11:08] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[21:14:50] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:14:58] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:15:08] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:08] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:15:11] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:15:11] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:15:11] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:15:11] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:15:11] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:15:11] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 9376MB total, 1194MB free 
+[21:15:11] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:11] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:15:32] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:15:32] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:15:32] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:32] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:15:34] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:15:34] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:15:34] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:15:34] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:15:34] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:15:34] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:15:34] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\the_end. Memory: 9376MB total, 1939MB free 
+[21:15:34] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\the_end\chunk_cache
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:15:34] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:16:04] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:the_end
+[21:16:04] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:the_end
+[21:16:04] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:16:04] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:16:07] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:16:07] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:16:07] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:16:07] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:16:07] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:16:07] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 9376MB total, 2479MB free 
+[21:16:07] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:16:07] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:33:29] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:39:13] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:48:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:48:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:48:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:48:03] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:48:03] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:48:03] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:48:03] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:48:03] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:48:03] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:48:03] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[21:48:03] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[21:48:10] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:48:16] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[21:48:29] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:48:29] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:48:30] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:48:30] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:48:30] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:48:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 3ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:48:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:48:30] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 9376MB total, 1594MB free 
+[21:48:30] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:48:31] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[22:03:47] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[22:04:33] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[22:10:53] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[22:10:53] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[22:10:53] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[22:10:53] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[22:10:53] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[22:10:53] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[22:10:53] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[22:10:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[22:10:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[22:10:53] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[22:10:53] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[10:51:06] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[10:51:33] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[10:51:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 11ms for: Default Palette
+[10:51:54] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[10:51:54] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[10:51:57] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[10:51:57] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[10:51:57] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[10:51:57] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[10:51:57] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[10:51:57] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 13760MB total, 8178MB free 
+[10:51:57] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[10:51:58] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[13:24:08] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=6 (max=10)
+[13:43:09] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[15:45:44] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:45:44] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:45:44] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:45:44] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[15:45:44] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[15:45:44] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[15:45:45] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:45:45] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[15:45:45] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[15:45:45] [JM-task-14/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@431048b7
+[15:45:45] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[15:45:45] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:50:43] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[15:50:57] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 7ms for: Default Palette
+[15:51:07] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:51:07] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:51:07] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[15:51:07] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[15:51:09] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[15:51:09] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[15:51:09] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:51:09] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[15:51:09] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[15:51:09] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 13760MB total, 6475MB free 
+[15:51:09] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:51:09] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:51:09] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[16:37:18] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[17:42:05] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[17:42:05] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[17:42:06] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[17:42:06] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[17:42:06] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[17:42:06] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[17:42:06] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:42:06] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[17:42:06] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[17:42:06] [JM-task-15/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\day\-1,0.png: null
+[17:42:06] [JM-task-15/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\day\-1,0.png: null
+[17:42:06] [JM-task-15/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\night\-1,0.png: null
+[17:42:06] [JM-task-15/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\night\-1,0.png: null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=1): null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=2): null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=3): null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=4): null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=5): null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=6): null
+[17:42:06] [JM-task-15/WARN] [LodChainStore] LodChainStore: failed to open (lod=7): null
+[17:42:06] [JM-task-15/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@6d6932e8
+[17:42:06] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[17:42:06] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[20:30:26] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[20:30:57] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[20:31:21] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 13ms for: Default Palette
+[20:31:31] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:31:31] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:31:31] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[20:31:31] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[20:31:33] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[20:31:33] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[20:31:33] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[20:31:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[20:31:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[20:31:33] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 13760MB total, 6949MB free 
+[20:31:33] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[20:31:33] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[20:31:33] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[20:35:01] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[20:35:07] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[20:35:25] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[20:36:33] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:02:44] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:02:44] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:02:44] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:02:44] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:02:44] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:02:44] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:02:44] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:02:44] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:02:44] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:02:44] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[21:02:44] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[21:06:17] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:06:47] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 8ms for: Default Palette
+[21:07:12] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:07:12] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:07:13] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:07:13] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:07:13] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[21:07:17] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:07:17] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:07:17] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:07:17] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 7ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:07:17] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:07:17] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 13760MB total, 6679MB free 
+[21:07:17] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:07:17] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:07:17] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[21:07:17] [JM-task-17/ERROR] [BaseMapTask] Unexpected error in BaseMapTask: java.lang.NullPointerException: Cannot invoke "journeymap.client.task.multi.RenderSpec.getMaxSecondaryRenderDistance()" because "renderSpec" is null
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.MapPlayerTask.shouldRenderChunk(MapPlayerTask.java:567)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:141)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:656)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[21:28:11] [Render thread/INFO] [RegionTile] RegionTile LOD queue gate full: queueCount=10 (max=10)
+[21:52:07] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:52:07] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:52:07] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:52:07] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:52:08] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:52:08] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:52:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:52:08] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:52:08] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\minecraft:overworld
+[21:52:08] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[21:52:08] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[21:54:18] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[21:54:34] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 9ms for: Default Palette
+[21:54:45] [Render thread/INFO] [JourneymapClient] World UID is set to: 9c5b8da6-bdbb-41c4-b255-68a76ca923de
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:54:45] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:54:45] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:54:45] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[21:54:48] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[21:54:48] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[21:54:48] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:54:48] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\colorpalette.json
+[21:54:48] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\colorpalette.json
+[21:54:48] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld. Memory: 13760MB total, 6346MB free 
+[21:54:48] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\Артур\AppData\Roaming\.minecraft\versions\modskotiki\journeymap\data\mp\~Minecraft_9c5b8da6~bdbb~41c4~b255~68a76ca923de\overworld\chunk_cache
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:54:48] [JM-task-18/ERROR] [BaseMapTask] Unexpected error in BaseMapTask: java.lang.NullPointerException: Cannot invoke "journeymap.client.task.multi.RenderSpec.getMaxSecondaryRenderDistance()" because "renderSpec" is null
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.MapPlayerTask.shouldRenderChunk(MapPlayerTask.java:567)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:141)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:656)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:54:48] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:54:48] [Render thread/INFO] [ExternalWaypointFinder] Multiplayer world detected: Multiplayer_localhost exists: false
+[22:02:02] [JM-task-18/ERROR] [VanillaBlockSpriteProxy] Unexpected error during getSprites(): create:cogwheel - java.lang.NullPointerException: Cannot invoke "net.minecraft.client.resources.model.BakedModel.getParticleIcon(net.minecraftforge.client.model.data.ModelData)" because "this.originalModel" is null
+	at TRANSFORMER/forge@47.4.20/net.minecraftforge.client.model.BakedModelWrapper.getParticleIcon(BakedModelWrapper.java:112)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.block.BlockModelShaper.m_110882_(BlockModelShaper.java:26)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.mod.vanilla.VanillaBlockSpriteProxy.getSprites(VanillaBlockSpriteProxy.java:110)
+[22:02:02] [JM-task-18/ERROR] [VanillaBlockSpriteProxy] Unexpected error during getSprites(): create:cogwheel - java.lang.NullPointerException: Cannot invoke "net.minecraft.client.resources.model.BakedModel.getParticleIcon(net.minecraftforge.client.model.data.ModelData)" because "this.originalModel" is null
+	at TRANSFORMER/forge@47.4.20/net.minecraftforge.client.model.BakedModelWrapper.getParticleIcon(BakedModelWrapper.java:112)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.block.BlockModelShaper.m_110882_(BlockModelShaper.java:26)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.mod.vanilla.VanillaBlockSpriteProxy.getSprites(VanillaBlockSpriteProxy.java:110)
+[22:02:02] [JM-task-18/ERROR] [VanillaBlockSpriteProxy] Unexpected error during getSprites(): create:cogwheel - java.lang.NullPointerException: Cannot invoke "net.minecraft.client.resources.model.BakedModel.getParticleIcon(net.minecraftforge.client.model.data.ModelData)" because "this.originalModel" is null
+	at TRANSFORMER/forge@47.4.20/net.minecraftforge.client.model.BakedModelWrapper.getParticleIcon(BakedModelWrapper.java:112)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.block.BlockModelShaper.m_110882_(BlockModelShaper.java:26)
+	at TRANSFORMER/journeymap@1.20.1-6.0.1/journeymap.client.mod.vanilla.VanillaBlockSpriteProxy.getSprites(VanillaBlockSpriteProxy.java:110)
